@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DD4T.Providers.SDLTridion2013", "DD4T.Providers.SDLTridion2013\DD4T.Providers.SDLTridion2013.csproj", "{E35BF700-6A67-4B29-B0FD-242FCC470E50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MVC3|Any CPU = MVC3|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release2011SP1|Any CPU = Release2011SP1|Any CPU
+		Release2013|Any CPU = Release2013|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.MVC3|Any CPU.ActiveCfg = MVC3|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.MVC3|Any CPU.Build.0 = MVC3|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Release2011SP1|Any CPU.ActiveCfg = Release2011SP1|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Release2011SP1|Any CPU.Build.0 = Release2011SP1|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Release2013|Any CPU.ActiveCfg = Release2013|Any CPU
+		{E35BF700-6A67-4B29-B0FD-242FCC470E50}.Release2013|Any CPU.Build.0 = Release2013|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
