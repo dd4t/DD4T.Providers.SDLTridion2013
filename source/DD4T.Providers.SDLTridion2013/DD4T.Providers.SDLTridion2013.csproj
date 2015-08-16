@@ -69,6 +69,7 @@
     <Reference Include="Newtonsoft.Json">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -133,7 +134,6 @@ copy "$(TargetPath)" "$(OutDir)\nuget"</PostBuildEvent>
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
   </Target>
-
   <Import Project="..\..\DD4T Providers.Targets" />
   <Target Name="AfterBuild">
     <CallTarget Targets="Package" />
